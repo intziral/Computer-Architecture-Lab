@@ -28,6 +28,12 @@
 >cache_line_size=64
 
 
+Το συνολικό νούμερο των "committed" εντολών είναι 5028, όπως προκύπτει απο το αρχείο stats.txt:
+>system.cpu_cluster.cpus.committedInsts           5028
+
+Η L2 cache προσπελάστηκε 479 φορές, όπως προκύπτει απο το αρχείο stats.txt:
+>system.cpu_cluster.l2.overall_accesses::total          479
+
 
 ### 3. Διαφορετικά Μοντέλα in-order CPUs στον gem-5    
 Στον gem-5 υπάρχουν τρία μοντέλα in-order CPUs: το MinorCPU, το TimingSimpleCPU και το AtomicSimpleCPU. Τα δύο τελευταία είναι εκδοχές του SimpleCPU μοντέλου.

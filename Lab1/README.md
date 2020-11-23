@@ -49,3 +49,7 @@
 
 #### TimingSimpleCPU
 Το TimingSimpleCPU αποτελεί υλοποίηση του SimpleCPU μοντέλου που χρησιμοποιεί πρόσβαση στη μνήμη τύπου timing(timing memory access). Αυτό σημαίνει ότι σε κάθε πρόσβαση στην cache καθυστερεί και περιμένει την απάντηση από το σύστημα μνήμης (είτε NACK εάν δεν μπορούσε να ολοκληρωθεί το αίτημα είτε την τιμή στην μνήμη που ζητήθηκε) πριν συνεχίσει την εκτέλεση εντολών ,υπάρχει δηλαδή resource contention και queuing delay , αφού ο επεξεργαστής περιμένει την ολοκλήρωση της πρόσβασης στην μνήμη για να συνεχίσει.
+
+### Πηγές  
+* gem5 documentation: [MinorCPU](http://www.gem5.org/documentation/general_docs/cpu_models/minor_cpu)
+* gem5 documentation: [SimpleCPU](http://www.gem5.org/documentation/general_docs/cpu_models/SimpleCPU)

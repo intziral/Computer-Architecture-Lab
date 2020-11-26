@@ -52,9 +52,18 @@ _ΟΜΑΔΑ 15_
 #### TimingSimpleCPU
 Το TimingSimpleCPU αποτελεί υλοποίηση του SimpleCPU μοντέλου που χρησιμοποιεί πρόσβαση στη μνήμη τύπου timing(timing memory access). Αυτό σημαίνει ότι σε κάθε πρόσβαση στην cache καθυστερεί και περιμένει την απάντηση από το σύστημα μνήμης (είτε NACK εάν δεν μπορούσε να ολοκληρωθεί το αίτημα είτε την τιμή στην μνήμη που ζητήθηκε) πριν συνεχίσει την εκτέλεση εντολών ,υπάρχει δηλαδή resource contention και queuing delay , αφού ο επεξεργαστής περιμένει την ολοκλήρωση της πρόσβασης στην μνήμη για να συνεχίσει.
 
-sim_seconds  
-TimingSimpleCPU: 0.001116s  
-MinorCPU: 0.000040s
+### Σύκριση Μοντέλων MinorCPU και TimingSimpleCPU  
+Στην αρχή μετρήσαμε τους χρόνους εκτέλεσης με συχνότητα λειτουγίας 4GHz και τύπο μνήμης DDR3-2600-x64:
+>./build/ARM/gem5.opt -d minor_default configs/example/se.py --cpu-type=MinorCPU --cpu-clock=4GHz --caches -c test_program_arm     
+>./build/ARM/gem5.opt -d timing_simple_default configs/example/se.py --cpu-type=TimingSimpleCPU --cpu-clock=4GHz --caches -c test_program_arm
+
+Ο χρόνος εκτέλεσης (sim_seconds) για κάθε μοντέλο CPU ήταν:
+* MinorCPU: 0.000037s
+* TimingSimpleCPU: 0.000042s
+
+
+
+
 
 
 

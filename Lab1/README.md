@@ -31,7 +31,7 @@ _ΟΜΑΔΑ 15_
 
 
 Το συνολικό νούμερο των "committed" εντολών είναι 5028, όπως προκύπτει απο το αρχείο stats.txt:
->system.cpu_cluster.cpus.committedInsts           5028
+>sim_insts          5028
 
 Η L2 cache προσπελάστηκε 479 φορές, όπως προκύπτει απο το αρχείο stats.txt:
 >system.cpu_cluster.l2.overall_accesses::total          479

@@ -53,19 +53,27 @@ _ΟΜΑΔΑ 15_
 Το TimingSimpleCPU αποτελεί υλοποίηση του SimpleCPU μοντέλου που χρησιμοποιεί πρόσβαση στη μνήμη τύπου timing(timing memory access). Αυτό σημαίνει ότι σε κάθε πρόσβαση στην cache καθυστερεί και περιμένει την απάντηση από το σύστημα μνήμης (είτε NACK εάν δεν μπορούσε να ολοκληρωθεί το αίτημα είτε την τιμή στην μνήμη που ζητήθηκε) πριν συνεχίσει την εκτέλεση εντολών ,υπάρχει δηλαδή resource contention και queuing delay , αφού ο επεξεργαστής περιμένει την ολοκλήρωση της πρόσβασης στην μνήμη για να συνεχίσει.
 
 ### Σύκριση Μοντέλων MinorCPU και TimingSimpleCPU  
-Στην αρχή μετρήσαμε τους χρόνους εκτέλεσης με συχνότητα λειτουγίας 4GHz και τύπο μνήμης DDR3-2600-x64:
+1. **Στην αρχή μετρήσαμε τους χρόνους εκτέλεσης με συχνότητα λειτουγίας 4GHz και τύπο μνήμης DDR3-2600-x64:**
 >./build/ARM/gem5.opt -d minor_default configs/example/se.py --cpu-type=MinorCPU --cpu-clock=4GHz --caches -c test_program_arm     
 >./build/ARM/gem5.opt -d timing_simple_default configs/example/se.py --cpu-type=TimingSimpleCPU --cpu-clock=4GHz --caches -c test_program_arm
 
 Ο χρόνος εκτέλεσης (sim_seconds) για κάθε μοντέλο CPU ήταν:
 * MinorCPU: 0.000037s
-* TimingSimpleCPU: 0.000042s
+* TimingSimpleCPU: 0.000042s  
 
+2. **Στη συνέχεια κάναμε αλλαγές στη συχνότητα λειτουργίας της CPU και πήραμε τα εξής αποτελέσματα:**  
 
+                  |   1GHz   |   2GHz   |   4GHz   |
+|-----------------|:--------:|:--------:|:--------:|
+| MinorCPU        | 0.000057 | 0.000044 | 0.000037 |
+| TimingSimpleCPU | 0.000081 | 0.000055 | 0.000042 |
 
+3. **Τέλος, με συχνότητα λειτουργίας 2GHz, χρησιμοποιήσαμε για mem-type την DDR4-2400-x64 και την LPDDR2-S4-1066-x32 (μία χαμηλής ισχύος DRAM που χρησιμοιείται στα κινητά τηλέφωνα):**
 
-
-
+                  | DDR4-2400-x64 | LPDDR2-S4-1066-x32 |
+|-----------------|:-------------:|:------------------:|
+| MinorCPU        |    0.000042   |      0.000054      |
+| TimingSimpleCPU |    0.000054   |      0.000064      |
 
 ### Πηγές  
 * Gem-5 Documentation: [MinorCPU](http://www.gem5.org/documentation/general_docs/cpu_models/minor_cpu)

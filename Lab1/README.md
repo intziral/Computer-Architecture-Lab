@@ -39,7 +39,7 @@ _ΟΜΑΔΑ 15_
 >system.cpu_cluster.l2.overall_accesses::total          479
 
 Οι προσπελάσεις της L2 cache ισούνται με τις αστοχίες στην L1. Άρα αν δεν παρεχόταν αυτή η πληροφορία από τον εξομοιωτή θα μπορούσαμε να την υπολογίσουμε με τη σχέση:
->Misses = Miss Rate x Mem accesses =
+>Misses = Miss Rate x Mem accesses =  
 >       = (dcache.miss_rate x dcache.overall_accesses) + (icache.miss_rate x icache.overall_accesses)  
 
 

@@ -15,7 +15,7 @@ _ΟΜΑΔΑ 15_
 * Cache line size = 64B  
 
 Τα αποτελέσματα των benchmark:  
-|       | Χρόνος Εκτέλεσης (sim_seconds) | CPI (Cycles Per Instruction | L1 icache miss rate | L1 dcache miss rate  | L2 miss rate |
+|       | Χρόνος Εκτέλεσης (sim_seconds) | CPI (Cycles Per Instruction) | L1 icache miss rate | L1 dcache miss rate  | L2 miss rate |
 |:-----:|:------------------------------:|:---------------------------:|:-------------------:|:--------------------:|:------------:|
 | bzip2 |            0.003884            |           7.768166          |       0.002785      |       0.153317       |   0.999093   |
 |  mcf  |            0.062553            |           1.231067          |       0.019023      |       0.002062       |   0.067668   |

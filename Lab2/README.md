@@ -30,24 +30,24 @@ _ΟΜΑΔΑ 15_
 Αλλάξαμε τις τιμές των παρακάτω παραμέτρων και εμφανίζουμε γραφήματα για να παρατηρήσουμε τις αλλαγές στην απόδοση του συστήματος (CPI). Οι παράμετροι που δεν αλλάζουν παίρνουν τις default τιμές τους.
 
 #### L1 icache size:  
-![image](Graphs/icache size)
+![image](Graphs/icache size.png)
 Παρατηρούμε μια μικρή αλλαγή στην απόδοση του mcf benchmark ενώ το CPI στα υπόλοιπα μένει σχεδόν σταθερό.
 
 #### L1 icache associativity:
-![image](Graphs/icache assoc)  
+![image](Graphs/icache assoc.png)  
 Πάλι δεν παρατηρούμε μεγάλες αλλαγές εκτός από την περίπτωση του mcf benchmark.  
 
 #### L1 dcache size:
-![image](Graphs/dcache size)  
+![image](Graphs/dcache size.png)  
 
 #### L1 dcache associativity:
-![image](Graphs/dcache assoc)  
+![image](Graphs/dcache assoc.png)  
 
 #### L2 cache size:
-![image](Graphs/l2 size)  
+![image](Graphs/l2 size.png)  
 
 #### L2 cache associativity:  
-![image](Graphs/l2 assoc)  
+![image](Graphs/l2 assoc.png)  
 
 #### Cache line size:  
-![image](Graphs/clz)  
+![image](Graphs/clz.png)  

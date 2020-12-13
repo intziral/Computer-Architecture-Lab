@@ -23,31 +23,31 @@ _ΟΜΑΔΑ 15_
 | sjeng |            0.276190            |          10.276166          |       0.000020      |       0.121831       |   0.999978   |
 |  lbm  |            0.174763            |           3.495270          |       0.000095      |       0.0609672      |   0.999940   |
 
-Αλλάξαμε τη συχνότητα λειτουργίας στα 1GHz  
+Αλλάξαμε τη συχνότητα λειτουργίας στα 1GHz:  
 ![image](Graphs/1ghz.png)  
 
 ### 2. Βελτιστοποίση Απόδοσης  
 Αλλάξαμε τις τιμές των παρακάτω παραμέτρων και εμφανίζουμε γραφήματα για να παρατηρήσουμε τις αλλαγές στην απόδοση του συστήματος (CPI). Οι παράμετροι που δεν αλλάζουν παίρνουν τις default τιμές τους.
 
 #### L1 icache size:  
-![image](Graphs/icache size.png)
+![image](Graphs/icache_size.png)
 Παρατηρούμε μια μικρή αλλαγή στην απόδοση του mcf benchmark ενώ το CPI στα υπόλοιπα μένει σχεδόν σταθερό.
 
 #### L1 icache associativity:
-![image](Graphs/icache assoc.png)  
+![image](Graphs/icache_assoc.png)  
 Πάλι δεν παρατηρούμε μεγάλες αλλαγές εκτός από την περίπτωση του mcf benchmark.  
 
 #### L1 dcache size:
-![image](Graphs/dcache size.png)  
+![image](Graphs/dcache_size.png)  
 
 #### L1 dcache associativity:
-![image](Graphs/dcache assoc.png)  
+![image](Graphs/dcache_assoc.png)  
 
 #### L2 cache size:
-![image](Graphs/l2 size.png)  
+![image](Graphs/l2_size.png)  
 
 #### L2 cache associativity:  
-![image](Graphs/l2 assoc.png)  
+![image](Graphs/l2_assoc.png)  
 
 #### Cache line size:  
 ![image](Graphs/clz.png)  

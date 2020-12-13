@@ -69,8 +69,52 @@ _ΟΜΑΔΑ 15_
 * Τέλος όσον αφορά το cache-line size ο διπλασιασμός του για ίδιο συνολικά μεγεθος cache θα έχει ως αποτέλεσμα διπλασιασμό του μεγέθους του buffer, άρα κάποια μικρή αύξηση κόστους , αλλά ταυτόχρονα μειώνει το μέγεθος του κομματιού tag κατά ένα bit άρα επιτρέπει την απλοποίηση και μείωση μεγέθους των κυκλωμάτων που χειρίζονται και αποθηκεύουν το κομμάτι αυτό ,άρα μειώνει και το κόστος αυτό.  
 Συνολικά δηλαδή η αλλαγή του μεγέθους γραμμής cache δεν επηρεάζει σημαντικά το κόστος της υλοποίησης.  
 
-Από τα παραπάνω προκύπτει η εξής **προσεγγιστική συνάρτηση κόστους/απόδοσης**:  
->CosPer = [ 1.5 ^ ( log2 (L1dassoc/2) )*(L1d size/64kB) + 1.5 ^ (log2(L1iassoc2) )*(L1i size/64kB) + 1.5 ^ ( log2 (L2assoc/2) )*(L2 size/2MB) ] / CPI
+Από τα παραπάνω προκύπτει η εξής **προσεγγιστική συνάρτηση κόστους-απόδοσης**:  
+>CosPer = [ log2(L1dassoc)*(L1d size/64kB) + log2(L1iassoc2)*(L1i size/64kB) + log2(L2assoc)*(L2 size/2MB) ] / CPI
 
+Χρησιμοποιώντας αυτή τη συνάρτηση προκύπτουν οι βέλτιστες προδιαγραφές κόστους-απόδοσης για κάθε benchmark:  
 
-dfddddd
+#### bzip2
+* L1 icache size: 32 kB
+* L1 icache assoc: 2-way
+* L1 dcache size: 32 kB
+* L1 dcache assoc: 2-way
+* L2 cache size: 1 Mb
+* L2 cache assoc: 8-way
+* Cache line size: 128 Kb  
+
+#### mcf
+* L1 icache size: 32 kB
+* L1 icache assoc: 4-way
+* L1 dcache size: 32 kB
+* L1 dcache assoc: 2-way
+* L2 cache size: 1 Mb
+* L2 cache assoc: 8-way
+* Cache line size: 64 Kb  
+
+#### hmmer
+* L1 icache size: 32 kB
+* L1 icache assoc: 2-way
+* L1 dcache size: 32 kB
+* L1 dcache assoc: 2-way
+* L2 cache size: 1 Mb
+* L2 cache assoc: 8-way
+* Cache line size: 128 Kb  
+
+#### sjeng
+* L1 icache size: 32 kB
+* L1 icache assoc: 2-way
+* L1 dcache size: 32 kB
+* L1 dcache assoc: 2-way
+* L2 cache size: 1 Mb
+* L2 cache assoc: 8-way
+* Cache line size: 128 Kb  
+
+#### lbim
+* L1 icache size: 32 kB
+* L1 icache assoc: 2-way
+* L1 dcache size: 32 kB
+* L1 dcache assoc: 2-way
+* L2 cache size: 1 Mb
+* L2 cache assoc: 8-way
+* Cache line size: 128 Kb

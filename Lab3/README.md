@@ -21,6 +21,7 @@ H συνολική ενέργεια που καταναλώνει ένας επ�
 > Energy = ( runtime dynamic power + total leakage power ) * Time  
 
 Από το McPAT παίρνουμε:  
+
 **Xeon:**  
 Runtime Dynamic = 72.9199 W
 Total leakage = 36.8319 W  

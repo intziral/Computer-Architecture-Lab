@@ -23,12 +23,12 @@ H συνολική ενέργεια που καταναλώνει ένας επ�
 Από το McPAT παίρνουμε:  
 
 **Xeon:**  
-Runtime Dynamic = 72.9199 W
+Runtime Dynamic = 72.9199 W  
 Total leakage = 36.8319 W  
 Σύνολο: 109.7 W
 
 **ARM A9**  
-Runtime Dynamic = 2.96053 W
+Runtime Dynamic = 2.96053 W  
 Total leakage = 0.108687 W  
 Σύνολο: 4.06 W
 

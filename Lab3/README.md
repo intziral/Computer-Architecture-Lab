@@ -1,6 +1,6 @@
 ## Τρίτο Εργαστήριο Αρχιτεκτονικής Προηγμένων Υπολογιστών  
 
-_Ομάδα 15_
+_Ομάδα 15_  
 **Ιωάννης Τζιραλής** ΑΕΜ: 9198  
 **Ηλίας Κορομπίλης** ΑΕΜ: 8993  
 
@@ -18,9 +18,9 @@ _Ομάδα 15_
 
 #### Σύκριση Xeon και ARM A9  
 H συνολική ενέργεια που καταναλώνει ένας επεξεργαστής υπολογίζεται από τη σχέση:
-> Energy = (runtime dynamic power + total leakage power) * Time  
+> Energy = ( runtime dynamic power + total leakage power ) * Time  
 
-Από το McPAT παίρνουμε:
+Από το McPAT παίρνουμε:  
 **Xeon:**  
 * Runtime Dynamic = 72.9199 W
 * Total leakage = 36.8319 W  

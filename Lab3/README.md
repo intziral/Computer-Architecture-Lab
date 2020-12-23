@@ -36,6 +36,6 @@ Total leakage = 0.108687 W
 
 ### 2. Βελτιστοποίηση γινομένου EDP  
 
-### Πηγές  
+### Πηγές
 * [McPAT: An Integrated Power, Area, and Timing Modeling
 Framework for Multicore and Manycore Architectures](https://www.hpl.hp.com/research/mcpat/micro09.pdf)

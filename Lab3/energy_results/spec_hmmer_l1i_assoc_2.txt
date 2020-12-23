@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_hmmer_l1i_assoc_2.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_hmmer_l1i_assoc_2/stats.txt
+leakage: 1.153270 W, dynamic: 0.066388 W and runtime: 0.000047 sec
+energy is 0.057324 mJ

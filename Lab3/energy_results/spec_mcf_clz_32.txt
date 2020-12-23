@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_mcf_clz_32.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_mcf_clz_32/stats.txt
+leakage: 0.845989 W, dynamic: 0.199021 W and runtime: 0.062291 sec
+energy is 65.094718 mJ

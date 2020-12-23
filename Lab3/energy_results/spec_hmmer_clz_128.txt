@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_hmmer_clz_128.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_hmmer_clz_128/stats.txt
+leakage: 1.253290 W, dynamic: 0.115945 W and runtime: 0.000037 sec
+energy is 0.050662 mJ

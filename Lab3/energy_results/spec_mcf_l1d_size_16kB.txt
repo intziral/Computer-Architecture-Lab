@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_mcf_l1d_size_16kB.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_mcf_l1d_size_16kB/stats.txt
+leakage: 0.748383 W, dynamic: 0.147367 W and runtime: 0.062649 sec
+energy is 56.117842 mJ

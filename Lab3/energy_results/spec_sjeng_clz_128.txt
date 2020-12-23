@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_sjeng_clz_128.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_sjeng_clz_128/stats.txt
+leakage: 1.253290 W, dynamic: 0.308426 W and runtime: 0.340289 sec
+energy is 531.434776 mJ

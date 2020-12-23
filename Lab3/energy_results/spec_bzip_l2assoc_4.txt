@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_bzip_l2assoc_4.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_bzip_l2assoc_4/stats.txt
+leakage: 1.153220 W, dynamic: 0.328424 W and runtime: 0.083616 sec
+energy is 123.889145 mJ

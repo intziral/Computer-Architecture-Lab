@@ -1,0 +1,2 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_libm_l1d_size_64kb.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_libm_l1d_size_64kb/stats.txt

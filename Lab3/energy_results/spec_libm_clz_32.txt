@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_libm_clz_32.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_libm_clz_32/stats.txt
+leakage: 0.845989 W, dynamic: 0.077060 W and runtime: 0.280326 sec
+energy is 258.754606 mJ

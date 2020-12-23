@@ -1,0 +1,842 @@
+[
+{
+"benchmark": "spec_bzip_clz_128",
+"energy": 152.304291,
+"runtime": 0.082823,
+"area": 51.1994,
+"peak_power": 9.22886
+},
+{
+"benchmark": "spec_bzip_clz_32",
+"energy": 93.068378,
+"runtime": 0.092340,
+"area": 13.2392,
+"peak_power": 2.22593
+},
+{
+"benchmark": "spec_bzip_clz_64",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l1d_assoc_1",
+"energy": 124.996337,
+"runtime": 0.084598,
+"area": 15.9147,
+"peak_power": 3.86087
+},
+{
+"benchmark": "spec_bzip_l1d_assoc_2",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l1d_assoc_4",
+"energy": 100.334350,
+"runtime": 0.083228,
+"area": 14.818,
+"peak_power": 3.59803
+},
+{
+"benchmark": "spec_bzip_l1d_assoc_8",
+"energy": 108.405443,
+"runtime": 0.082921,
+"area": 15.1186,
+"peak_power": 3.84194
+},
+{
+"benchmark": "spec_bzip_l1d_size_16kB",
+"energy": 75.211444,
+"runtime": 0.087039,
+"area": 13.2638,
+"peak_power": 2.96819
+},
+{
+"benchmark": "spec_bzip_l1d_size_32kB",
+"energy": 74.298779,
+"runtime": 0.085354,
+"area": 13.3235,
+"peak_power": 2.98366
+},
+{
+"benchmark": "spec_bzip_l1d_size_64kB",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l1i_assoc_1",
+"energy": 123.935577,
+"runtime": 0.083671,
+"area": 15.9213,
+"peak_power": 3.83552
+},
+{
+"benchmark": "spec_bzip_l1i_assoc_2",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l1i_assoc_4",
+"energy": 130.580376,
+"runtime": 0.083660,
+"area": 16.7179,
+"peak_power": 4.2711
+},
+{
+"benchmark": "spec_bzip_l1i_assoc_8",
+"energy": 134.292457,
+"runtime": 0.083671,
+"area": 17.564,
+"peak_power": 4.62657
+},
+{
+"benchmark": "spec_bzip_l1i_size_16kB",
+"energy": 123.362208,
+"runtime": 0.083678,
+"area": 15.9002,
+"peak_power": 3.84674
+},
+{
+"benchmark": "spec_bzip_l1i_size_32kB",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l1i_size_64kB",
+"energy": 157.831262,
+"runtime": 0.083665,
+"area": 18.3463,
+"peak_power": 4.865
+},
+{
+"benchmark": "spec_bzip_l2assoc_2",
+"energy": 124.267460,
+"runtime": 0.083951,
+"area": 16.6416,
+"peak_power": 3.86492
+},
+{
+"benchmark": "spec_bzip_l2assoc_4",
+"energy": 123.889145,
+"runtime": 0.083616,
+"area": 16.6366,
+"peak_power": 3.86503
+},
+{
+"benchmark": "spec_bzip_l2assoc_8",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l2size_1024kB",
+"energy": 125.217515,
+"runtime": 0.085158,
+"area": 13.1165,
+"peak_power": 3.75956
+},
+{
+"benchmark": "spec_bzip_l2size_2048kB",
+"energy": 123.943021,
+"runtime": 0.083654,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_bzip_l2size_4096kB",
+"energy": 123.157072,
+"runtime": 0.082304,
+"area": 22.2732,
+"peak_power": 3.99078
+},
+{
+"benchmark": "spec_bzip_l2size_512kB",
+"energy": 127.961542,
+"runtime": 0.087783,
+"area": 11.0763,
+"peak_power": 3.69106
+},
+{
+"benchmark": "spec_hmmer_clz_128",
+"energy": 0.050662,
+"runtime": 0.000037,
+"area": 51.1994,
+"peak_power": 9.22886
+},
+{
+"benchmark": "spec_hmmer_clz_32",
+"energy": 0.056660,
+"runtime": 0.000064,
+"area": 13.2392,
+"peak_power": 2.22593
+},
+{
+"benchmark": "spec_hmmer_clz_64",
+"energy": 0.056032,
+"runtime": 0.000046,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l1d_assoc_1",
+"energy": 0.057214,
+"runtime": 0.000047,
+"area": 15.9147,
+"peak_power": 3.86087
+},
+{
+"benchmark": "spec_hmmer_l1d_assoc_2",
+"energy": 0.057324,
+"runtime": 0.000047,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l1d_assoc_4",
+"energy": 0.044353,
+"runtime": 0.000047,
+"area": 14.818,
+"peak_power": 3.59803
+},
+{
+"benchmark": "spec_hmmer_l1d_assoc_8",
+"energy": 0.046014,
+"runtime": 0.000047,
+"area": 15.1186,
+"peak_power": 3.84194
+},
+{
+"benchmark": "spec_hmmer_l1d_size_16kB",
+"energy": 0.036834,
+"runtime": 0.000047,
+"area": 13.2638,
+"peak_power": 2.96819
+},
+{
+"benchmark": "spec_hmmer_l1d_size_32kB",
+"energy": 0.037145,
+"runtime": 0.000047,
+"area": 13.3235,
+"peak_power": 2.98366
+},
+{
+"benchmark": "spec_hmmer_l1d_size_64kB",
+"energy": 0.057324,
+"runtime": 0.000047,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l1i_assoc_1",
+"energy": 0.057358,
+"runtime": 0.000047,
+"area": 15.9213,
+"peak_power": 3.83552
+},
+{
+"benchmark": "spec_hmmer_l1i_assoc_2",
+"energy": 0.057324,
+"runtime": 0.000047,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l1i_assoc_4",
+"energy": 0.059833,
+"runtime": 0.000046,
+"area": 16.7179,
+"peak_power": 4.2711
+},
+{
+"benchmark": "spec_hmmer_l1i_assoc_8",
+"energy": 0.061922,
+"runtime": 0.000046,
+"area": 17.564,
+"peak_power": 4.62657
+},
+{
+"benchmark": "spec_hmmer_l1i_size_16kB",
+"energy": 0.057075,
+"runtime": 0.000047,
+"area": 15.9002,
+"peak_power": 3.84674
+},
+{
+"benchmark": "spec_hmmer_l1i_size_32kB",
+"energy": 0.057324,
+"runtime": 0.000047,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l1i_size_64kB",
+"energy": 0.074800,
+"runtime": 0.000046,
+"area": 18.3463,
+"peak_power": 4.865
+},
+{
+"benchmark": "spec_hmmer_l2assoc_2",
+"energy": 0.056030,
+"runtime": 0.000046,
+"area": 16.6416,
+"peak_power": 3.86492
+},
+{
+"benchmark": "spec_hmmer_l2assoc_4",
+"energy": 0.056031,
+"runtime": 0.000046,
+"area": 16.6366,
+"peak_power": 3.86503
+},
+{
+"benchmark": "spec_hmmer_l2assoc_8",
+"energy": 0.056032,
+"runtime": 0.000046,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l2size_1024kB",
+"energy": 0.055926,
+"runtime": 0.000046,
+"area": 13.1165,
+"peak_power": 3.75956
+},
+{
+"benchmark": "spec_hmmer_l2size_2048kB",
+"energy": 0.056032,
+"runtime": 0.000046,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_hmmer_l2size_4096kB",
+"energy": 0.056269,
+"runtime": 0.000046,
+"area": 22.2732,
+"peak_power": 3.99078
+},
+{
+"benchmark": "spec_hmmer_l2size_512kB",
+"energy": 0.055852,
+"runtime": 0.000046,
+"area": 11.0763,
+"peak_power": 3.69106
+},
+{
+"benchmark": "spec_libm_clz_128",
+"energy": 210.371373,
+"runtime": 0.129077,
+"area": 51.1994,
+"peak_power": 9.22886
+},
+{
+"benchmark": "spec_libm_clz_32",
+"energy": 258.754606,
+"runtime": 0.280326,
+"area": 13.2392,
+"peak_power": 2.22593
+},
+{
+"benchmark": "spec_libm_clz_64",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l1d_assoc_1",
+"energy": 233.202915,
+"runtime": 0.175529,
+"area": 15.9147,
+"peak_power": 3.86087
+},
+{
+"benchmark": "spec_libm_l1d_assoc_2",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l1d_assoc_4",
+"energy": 184.875137,
+"runtime": 0.174763,
+"area": 14.818,
+"peak_power": 3.59803
+},
+{
+"benchmark": "spec_libm_l1d_assoc_8",
+"energy": 196.371921,
+"runtime": 0.174763,
+"area": 15.1186,
+"peak_power": 3.84194
+},
+{
+"benchmark": "spec_libm_l1d_size_16kB",
+"energy": 143.446694,
+"runtime": 0.175150,
+"area": 13.2638,
+"peak_power": 2.96819
+},
+{
+"benchmark": "spec_libm_l1d_size_32kB",
+"energy": 144.603485,
+"runtime": 0.174763,
+"area": 13.3235,
+"peak_power": 2.98366
+},
+{
+"benchmark": "spec_libm_l1d_size_64kB",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l1i_assoc_1",
+"energy": 233.140519,
+"runtime": 0.175151,
+"area": 15.9213,
+"peak_power": 3.83552
+},
+{
+"benchmark": "spec_libm_l1i_assoc_2",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l1i_assoc_4",
+"energy": 246.592166,
+"runtime": 0.174763,
+"area": 16.7179,
+"peak_power": 4.2711
+},
+{
+"benchmark": "spec_libm_l1i_assoc_8",
+"energy": 254.316690,
+"runtime": 0.174763,
+"area": 17.564,
+"peak_power": 4.62657
+},
+{
+"benchmark": "spec_libm_l1i_size_16kB",
+"energy": 231.923394,
+"runtime": 0.175151,
+"area": 15.9002,
+"peak_power": 3.84674
+},
+{
+"benchmark": "spec_libm_l1i_size_32kB",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l1i_size_64kB",
+"energy": 303.501989,
+"runtime": 0.174763,
+"area": 18.3463,
+"peak_power": 4.865
+},
+{
+"benchmark": "spec_libm_l2assoc_2",
+"energy": 232.707071,
+"runtime": 0.174763,
+"area": 16.6416,
+"peak_power": 3.86492
+},
+{
+"benchmark": "spec_libm_l2assoc_4",
+"energy": 232.714061,
+"runtime": 0.174763,
+"area": 16.6366,
+"peak_power": 3.86503
+},
+{
+"benchmark": "spec_libm_l2assoc_8",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l2size_1024kB",
+"energy": 232.534142,
+"runtime": 0.175257,
+"area": 13.1165,
+"peak_power": 3.75956
+},
+{
+"benchmark": "spec_libm_l2size_2048kB",
+"energy": 232.742198,
+"runtime": 0.174763,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_libm_l2size_4096kB",
+"energy": 234.275757,
+"runtime": 0.174932,
+"area": 22.2732,
+"peak_power": 3.99078
+},
+{
+"benchmark": "spec_libm_l2size_512kB",
+"energy": 231.607449,
+"runtime": 0.174919,
+"area": 11.0763,
+"peak_power": 3.69106
+},
+{
+"benchmark": "spec_mcf_clz_128",
+"energy": 115.668455,
+"runtime": 0.062447,
+"area": 51.1994,
+"peak_power": 9.22886
+},
+{
+"benchmark": "spec_mcf_clz_32",
+"energy": 65.094718,
+"runtime": 0.062291,
+"area": 13.2392,
+"peak_power": 2.22593
+},
+{
+"benchmark": "spec_mcf_clz_64",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l1d_assoc_1",
+"energy": 93.454980,
+"runtime": 0.062737,
+"area": 15.9147,
+"peak_power": 3.86087
+},
+{
+"benchmark": "spec_mcf_l1d_assoc_2",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l1d_assoc_4",
+"energy": 76.532093,
+"runtime": 0.062537,
+"area": 14.818,
+"peak_power": 3.59803
+},
+{
+"benchmark": "spec_mcf_l1d_assoc_8",
+"energy": 84.081278,
+"runtime": 0.062534,
+"area": 15.1186,
+"peak_power": 3.84194
+},
+{
+"benchmark": "spec_mcf_l1d_size_16kB",
+"energy": 56.117842,
+"runtime": 0.062649,
+"area": 13.3235,
+"peak_power": 2.98366
+},
+{
+"benchmark": "spec_mcf_l1d_size_32kB",
+"energy": 56.117842,
+"runtime": 0.062649,
+"area": 13.3235,
+"peak_power": 2.98366
+},
+{
+"benchmark": "spec_mcf_l1d_size_64kB",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l1i_assoc_1",
+"energy": 99.419925,
+"runtime": 0.066927,
+"area": 15.9213,
+"peak_power": 3.83552
+},
+{
+"benchmark": "spec_mcf_l1i_assoc_2",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l1i_assoc_4",
+"energy": 90.902828,
+"runtime": 0.057334,
+"area": 16.7179,
+"peak_power": 4.2711
+},
+{
+"benchmark": "spec_mcf_l1i_assoc_8",
+"energy": 93.436990,
+"runtime": 0.057334,
+"area": 17.564,
+"peak_power": 4.62657
+},
+{
+"benchmark": "spec_mcf_l1i_size_16kB",
+"energy": 98.320874,
+"runtime": 0.066506,
+"area": 15.9002,
+"peak_power": 3.84674
+},
+{
+"benchmark": "spec_mcf_l1i_size_32kB",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l1i_size_64kB",
+"energy": 109.572957,
+"runtime": 0.057334,
+"area": 18.3463,
+"peak_power": 4.865
+},
+{
+"benchmark": "spec_mcf_l2assoc_2",
+"energy": 93.404624,
+"runtime": 0.062555,
+"area": 16.6416,
+"peak_power": 3.86492
+},
+{
+"benchmark": "spec_mcf_l2assoc_4",
+"energy": 93.401966,
+"runtime": 0.062551,
+"area": 16.6366,
+"peak_power": 3.86503
+},
+{
+"benchmark": "spec_mcf_l2assoc_8",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l2size_1024kB",
+"energy": 93.247740,
+"runtime": 0.062781,
+"area": 13.1165,
+"peak_power": 3.75956
+},
+{
+"benchmark": "spec_mcf_l2size_2048kB",
+"energy": 93.410958,
+"runtime": 0.062553,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_mcf_l2size_4096kB",
+"energy": 94.029666,
+"runtime": 0.062527,
+"area": 22.2732,
+"peak_power": 3.99078
+},
+{
+"benchmark": "spec_mcf_l2size_512kB",
+"energy": 93.291871,
+"runtime": 0.063063,
+"area": 11.0763,
+"peak_power": 3.69106
+},
+{
+"benchmark": "spec_sjeng_clz_128",
+"energy": 531.434776,
+"runtime": 0.340289,
+"area": 51.1994,
+"peak_power": 9.22886
+},
+{
+"benchmark": "spec_sjeng_clz_32",
+"energy": 798.776352,
+"runtime": 0.882729,
+"area": 13.2392,
+"peak_power": 2.22593
+},
+{
+"benchmark": "spec_sjeng_clz_64",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l1d_assoc_1",
+"energy": 657.900532,
+"runtime": 0.513878,
+"area": 15.9147,
+"peak_power": 3.86087
+},
+{
+"benchmark": "spec_sjeng_l1d_assoc_2",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l1d_assoc_4",
+"energy": 522.310820,
+"runtime": 0.513825,
+"area": 14.818,
+"peak_power": 3.59803
+},
+{
+"benchmark": "spec_sjeng_l1d_assoc_8",
+"energy": 564.200424,
+"runtime": 0.513818,
+"area": 15.1186,
+"peak_power": 3.84194
+},
+{
+"benchmark": "spec_sjeng_l1d_size_16kB",
+"energy": 413.513086,
+"runtime": 0.513826,
+"area": 13.2638,
+"peak_power": 2.96819
+},
+{
+"benchmark": "spec_sjeng_l1d_size_32kB",
+"energy": 417.469931,
+"runtime": 0.513834,
+"area": 13.3235,
+"peak_power": 2.98366
+},
+{
+"benchmark": "spec_sjeng_l1d_size_64kB",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l1i_assoc_1",
+"energy": 659.135504,
+"runtime": 0.513939,
+"area": 15.9213,
+"peak_power": 3.83552
+},
+{
+"benchmark": "spec_sjeng_l1i_assoc_2",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l1i_assoc_4",
+"energy": 699.899482,
+"runtime": 0.513831,
+"area": 16.7179,
+"peak_power": 4.2711
+},
+{
+"benchmark": "spec_sjeng_l1i_assoc_8",
+"energy": 722.618736,
+"runtime": 0.513837,
+"area": 17.564,
+"peak_power": 4.62657
+},
+{
+"benchmark": "spec_sjeng_l1i_size_16kB",
+"energy": 655.449414,
+"runtime": 0.513841,
+"area": 15.9002,
+"peak_power": 3.84674
+},
+{
+"benchmark": "spec_sjeng_l1i_size_32kB",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l1i_size_64kB",
+"energy": 867.200808,
+"runtime": 0.513817,
+"area": 18.3463,
+"peak_power": 4.865
+},
+{
+"benchmark": "spec_sjeng_l2assoc_2",
+"energy": 659.145349,
+"runtime": 0.513903,
+"area": 16.6416,
+"peak_power": 3.86492
+},
+{
+"benchmark": "spec_sjeng_l2assoc_4",
+"energy": 659.066900,
+"runtime": 0.513817,
+"area": 16.6366,
+"peak_power": 3.86503
+},
+{
+"benchmark": "spec_sjeng_l2assoc_8",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l2size_1024kB",
+"energy": 656.784217,
+"runtime": 0.513978,
+"area": 13.1165,
+"peak_power": 3.75956
+},
+{
+"benchmark": "spec_sjeng_l2size_2048kB",
+"energy": 659.168626,
+"runtime": 0.513823,
+"area": 15.9545,
+"peak_power": 3.86567
+},
+{
+"benchmark": "spec_sjeng_l2size_4096kB",
+"energy": 663.003266,
+"runtime": 0.513507,
+"area": 22.2732,
+"peak_power": 3.99078
+},
+{
+"benchmark": "spec_sjeng_l2size_512kB",
+"energy": 654.961541,
+"runtime": 0.513890,
+"area": 11.0763,
+"peak_power": 3.69106
+},
+]

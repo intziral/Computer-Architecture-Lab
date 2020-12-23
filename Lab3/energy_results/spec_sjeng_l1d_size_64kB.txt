@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat/mcpat_stats/spec_sjeng_l1d_size_64kB.txt
+Reading simulation time from: ../mcpat/spec_results2/spec_sjeng_l1d_size_64kB/stats.txt
+leakage: 1.153270 W, dynamic: 0.129601 W and runtime: 0.513823 sec
+energy is 659.168626 mJ
